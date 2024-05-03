@@ -1,4 +1,9 @@
 {
+    "NavigationButtonData":{
+        "label01":"back",
+        "label02":"back - 01",
+        "label03":"back - 02"
+    },
     "onPressComponents":{
         "blinds":"Goto Blinds",
         "button":"Some BTN"

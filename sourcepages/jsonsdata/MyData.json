@@ -1,0 +1,17 @@
+{
+    "GlobalJson":{
+        "Honors":"Honors of Kings",
+        "Welcome":"Welcome to Honors of Kings!",
+        "Privilages":"Privilages",
+        "Current":"Current Noble : ",
+        "Spend":"Spend another ",
+        "no1":"Noble",
+        "no2":"Privillage",
+        "SpendContinue":" points to updrage to Noble "
+    },
+    "NavigationButtonData":{
+        "label01":"back",
+        "label02":"back - 01",
+        "label03":"back - 02"
+    }
+}
