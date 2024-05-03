@@ -1,0 +1,35 @@
+import { View, Text, ImageBackground, Alert} from 'react-native'
+import React from 'react'
+import AppDesign from '../design/StyleSheetD'
+import jsontext from '../jsonsdata/MyData.json'
+import imgback from '../images/back.png'
+import { TouchableOpacity } from 'react-native-gesture-handler'
+const PageView = () => {
+  const handleButtonPress = (buttonName) => {
+    Alert.alert(`Button ${buttonName} pressed`);
+  };
+
+  return (<ImageBackground source={imgback} style={{ flex: 1 }}>
+   <View style={AppDesign.MainViewCotainer}>
+     <View style={AppDesign.sideDrawer}>
+       <TouchableOpacity>
+        <Text style={{color: 'white'}} onPress={()=>{handleButtonPress("Pressed")    
+        }}>Button 1</Text>
+       </TouchableOpacity>
+       <TouchableOpacity>
+        <Text style={{color: 'white'}}>Button 1</Text>
+       </TouchableOpacity>
+       <TouchableOpacity>
+        <Text style={{color: 'white'}}>Button 1</Text>
+       </TouchableOpacity>
+     </View>
+     <View style={AppDesign.rightWidth}>
+        <Text style={AppDesign.Body}>
+          Hello
+        </Text>
+     </View>
+  </View>
+  </ImageBackground>)
+}
+
+export default PageView
